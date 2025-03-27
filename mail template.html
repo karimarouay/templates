@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation de Commande - Alyce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            color: #72363E;
+            background-image: url("bg.png");
+            background-color: #FFF2F4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            color: #72363E;
+            
+        }
+        .order-summary {
+            margin: 0 auto; 
+            display: grid;
+            place-items: center;
+            text-align: center;
+            text-justify: auto;
+            color: #72363E;
+            width: 363px;
+            height: fit-content;
+            background-color: #FFF2F4;
+            padding: 15px;
+            border-radius: 50px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); ;
+       
+        }
+        .footer {
+            display: flex;
+            align-items: flex-start;
+            background-color: rgba(114, 54, 62, 0.75);
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+            border-radius: 10px;
+            height: 340px;
+            color: #72363E;
+            font-size: xx-large;
+            align-items: center;
+            /* justify-content: center; */
+        }
+        .footer a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #72363E;
+        }
+        
+        .btn-primary {
+            background-color: #72363E;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #72363E;
+        }
+        .product-img {
+            object-position: 50%;
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-left" style="font-size: 300%;">Confirmer la commande</h2>
+    <h4 class="text-left" style="font-size: 150%;">Merci pour votre commande sur ALYCE ! Afin de finaliser votre achat, nous vous invitons à confirmer votre commande en cliquant sur le bouton ci-dessous :</h4>
+    <table class="table table-bordered mt-4 text-center" >
+        <thead class="table-light">
+            <tr>
+                <th>Image</th>
+                <th>Article</th>
+                <th>Quantité</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="product.png" alt="Produit 1" class="product-img"></td>
+                <td>Lorem ipsum dolor sit amet</td>
+                <td>3</td>
+                <td>20 DT</td>
+            </tr>
+            <tr>
+                <td><img src="product.png" alt="Produit 2" class="product-img"></td>
+                <td>Lorem ipsum dolor sit amet</td>
+                <td>1</td>
+                <td>8 DT</td>
+            </tr>
+            <tr>
+                <td><img src="product.png" alt="Produit 3" class="product-img"></td>
+                <td>Lorem ipsum dolor sit amet</td>
+                <td>1</td>
+                <td>13 DT</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="order-summary">
+        <h4>Montant total</h4>
+        <p>Sous-total : <strong>41 DT</strong></p>
+        <p>Frais de livraison : <strong>10 DT</strong></p>
+        <p>Remise : <strong>-5 DT</strong></p>
+        <h5>Total : <strong>46 DT</strong></h5>
+        <button class="btn btn-primary w-50 mt-2">Confirmer la commande</button>
+    </div>
+
+    
+</div>
+
+<div class="footer">
+    <img src="logo.png" class="logo" style="width: 350px;
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: center;
+    margin-right: 12%; ">
+    <p>
+        <a href="#">Accueil</a> |
+        <a href="#">Catalogue</a> |
+        <a href="#">Notre Histoire</a> |
+        <a href="#">Contact</a>
+    </p>
+</div>
+
+</body>
+</html>

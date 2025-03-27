@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation de Commande - Alyce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            color: #72363E;
+            background-image: url("bg.png");
+            background-color: #FFF2F4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            color: #72363E;
+            height: 500px;
+            font-size: 500%;
+        }
+       
+        .footer {
+            display: flex;
+            align-items: flex-start;
+            background-color: rgba(114, 54, 62, 0.75);
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+            border-radius: 10px;
+            height: 340px;
+            color: #72363E;
+            font-size: xx-large;
+            align-items: center;
+            /* justify-content: center; */
+        }
+        .footer a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #72363E;
+        }
+        
+        .btn-primary {
+            background-color: #72363E;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #72363E;
+        }
+        .product-img {
+            object-position: 50%;
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-left"> Réinitialisation de votre mot de passe</h1>
+    <div style="height: 20px;"></div>
+    <h2 class="text-left">Nous avons reçu une demande de réinitialisation de votre mot de passe pour votre compte sur Alyce.
+
+        Pour définir un nouveau mot de passe, cliquez sur le bouton ci-dessous</h2>
+        <button class="btn btn-primary w-100 mt-20" style="height: 80px; font-size: xx-large;">Réinitialiser mon mot de passe</button>
+        <div style="height: 20px;"></div>
+        <h6 class="text-left">
+            Si le bouton ne fonctionne pas, copiez et collez ce lien dans votre navigateur :
+            [URL de réinitialisation]
+            
+            Ce lien est valable pendant [Durée de validité] et ne peut être utilisé qu'une seule fois.
+            
+            Si vous n'êtes pas à l'origine de cette demande, vous pouvez ignorer cet email en toute sécurité. </h6>
+   
+    
+    </div>
+
+    
+</div>
+
+<div class="footer">
+    <img src="logo.png" class="logo" style="width: 350px;
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: center;
+    margin-right: 12%; ">
+    <p>
+        <a href="#">Accueil</a> |
+        <a href="#">Catalogue</a> |
+        <a href="#">Notre Histoire</a> |
+        <a href="#">Contact</a>
+    </p>
+</div>
+
+</body>
+</html>
